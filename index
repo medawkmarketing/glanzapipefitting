@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Glanza Pipe Fitting</title>
+
+<style>
+body {margin:0; font-family:Arial; background:#F5F7FA;}
+header {background:#0A2540; color:white; padding:15px 30px; display:flex; justify-content:space-between; align-items:center;}
+header img {height:50px;}
+nav a {color:white; margin:0 10px; text-decoration:none;}
+
+.hero {
+    background:linear-gradient(rgba(10,37,64,0.8), rgba(10,37,64,0.8)),
+    url('https://images.unsplash.com/photo-1581091870627-3c3c5e8c1e2b');
+    color:white;
+    text-align:center;
+    padding:100px 20px;
+}
+.hero h1 {font-size:40px;}
+.btn {
+    background:#1E90FF;
+    color:white;
+    padding:12px 25px;
+    border:none;
+    border-radius:5px;
+    text-decoration:none;
+}
+
+.section {padding:60px 20px; text-align:center;}
+.cards {display:flex; flex-wrap:wrap; justify-content:center; gap:20px;}
+.card {
+    background:white;
+    padding:20px;
+    width:250px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+footer {background:#0A2540; color:white; text-align:center; padding:20px;}
+.social a {color:white; margin:0 10px;}
+</style>
+
+</head>
+
+<body>
+
+<!-- 🔷 Header -->
+<header>
+    <div style="display:flex; align-items:center;">
+        <img src="glanza-logo.png">
+        <h2 style="margin-left:10px;">Glanza Pipe Fitting</h2>
+    </div>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Products</a>
+        <a href="#">Contact</a>
+    </nav>
+</header>
+
+<!-- 🔷 Hero -->
+<section class="hero">
+    <h1>UPVC & CPVC Pipe Fittings Manufacturer</h1>
+    <p>Durable • Reliable • Export Quality</p>
+    <br>
+    <a href="tel:+918530193038" class="btn">Call Now</a>
+</section>
+
+<!-- 🔷 About -->
+<section class="section">
+    <h2>About Us</h2>
+    <p>
+        Glanza Pipe Fitting is a leading manufacturer of UPVC & CPVC pipe fittings 
+        delivering high-quality piping solutions for residential, commercial and industrial use.
+    </p>
+</section>
+
+<!-- 🔷 Products -->
+<section class="section" style="background:#fff;">
+    <h2>Our Products</h2>
+    <div class="cards">
+        <div class="card">UPVC Pipe Fittings</div>
+        <div class="card">CPVC Pipe Fittings</div>
+        <div class="card">Brass Fittings</div>
+        <div class="card">Industrial Solutions</div>
+    </div>
+</section>
+
+<!-- 🔷 Why Us -->
+<section class="section">
+    <h2>Why Choose Us</h2>
+    <div class="cards">
+        <div class="card">High Quality</div>
+        <div class="card">Long Life</div>
+        <div class="card">On-time Delivery</div>
+        <div class="card">Export Available</div>
+    </div>
+</section>
+
+<!-- 🔷 Contact -->
+<section class="section" style="background:#fff;">
+    <h2>Contact Us</h2>
+    <p>📞 +91 8530193038</p>
+
+    <div class="social">
+        <a href="https://www.facebook.com/profile.php?id=61576484231136" target="_blank">Facebook</a>
+        <a href="https://www.instagram.com/glanzapipefitting/" target="_blank">Instagram</a>
+        <a href="https://www.linkedin.com/company/112832017/" target="_blank">LinkedIn</a>
+    </div>
+</section>
+
+<!-- 🔷 Footer -->
+<footer>
+    <p>© 2026 Glanza Pipe Fitting</p>
+</footer>
+
+</body>
+</html>
