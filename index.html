@@ -6,116 +6,130 @@
 <title>Glanza Pipe Fitting</title>
 
 <style>
-body {margin:0; font-family:Arial; background:#F5F7FA;}
-header {background:#0A2540; color:white; padding:15px 30px; display:flex; justify-content:space-between; align-items:center;}
-header img {height:50px;}
-nav a {color:white; margin:0 10px; text-decoration:none;}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
-.hero {
-    background:linear-gradient(rgba(10,37,64,0.8), rgba(10,37,64,0.8)),
-    url('https://images.unsplash.com/photo-1581091870627-3c3c5e8c1e2b');
-    color:white;
-    text-align:center;
-    padding:100px 20px;
-}
-.hero h1 {font-size:40px;}
-.btn {
-    background:#1E90FF;
-    color:white;
-    padding:12px 25px;
-    border:none;
-    border-radius:5px;
-    text-decoration:none;
+body {
+    margin: 0;
+    padding: 25px 20px;
+    font-family: 'Inter', Arial, sans-serif;
+    background: linear-gradient(135deg, #0a1f3d, #1e3a6b);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
-.section {padding:60px 20px; text-align:center;}
-.cards {display:flex; flex-wrap:wrap; justify-content:center; gap:20px;}
 .card {
-    background:white;
-    padding:20px;
-    width:250px;
-    border-radius:10px;
-    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 400px;
+    background: #0f2a4f;
+    border-radius: 28px;
+    overflow: hidden;
+    box-shadow: 0 25px 60px rgba(0, 0, 0, 0.45);
 }
 
-footer {background:#0A2540; color:white; text-align:center; padding:20px;}
-.social a {color:white; margin:0 10px;}
+.logo-strip {
+    background: #ffffff;
+    padding: 28px;
+    text-align: center;
+}
+
+.logo-strip img {
+    max-width: 200px;
+}
+
+.content {
+    padding: 30px;
+    text-align: center;
+}
+
+h1 {
+    color: #ffffff;
+    font-size: 26px;
+    margin: 0;
+}
+
+.subtitle {
+    color: #ffaa33;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: white;
+    color: #0f2a4f;
+    padding: 14px;
+    margin: 10px 0;
+    border-radius: 12px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.btn img {
+    width: 22px;
+}
+
+.social {
+    margin-top: 20px;
+}
+
+.social img {
+    width: 45px;
+    margin: 8px;
+}
 </style>
 
 </head>
 
 <body>
 
-<!-- 🔷 Header -->
-<header>
-    <div style="display:flex; align-items:center;">
+<div class="card">
+
+    <div class="logo-strip">
         <img src="glanza-logo.png">
-        <h2 style="margin-left:10px;">Glanza Pipe Fitting</h2>
     </div>
 
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Products</a>
-        <a href="#">Contact</a>
-    </nav>
-</header>
+    <div class="content">
 
-<!-- 🔷 Hero -->
-<section class="hero">
-    <h1>UPVC & CPVC Pipe Fittings Manufacturer</h1>
-    <p>Durable • Reliable • Export Quality</p>
-    <br>
-    <a href="tel:+918530193038" class="btn">Call Now</a>
-</section>
+        <h1>Glanza Pipe Fitting</h1>
+        <div class="subtitle">UPVC & CPVC Pipe Fittings Manufacturer</div>
 
-<!-- 🔷 About -->
-<section class="section">
-    <h2>About Us</h2>
-    <p>
-        Glanza Pipe Fitting is a leading manufacturer of UPVC & CPVC pipe fittings 
-        delivering high-quality piping solutions for residential, commercial and industrial use.
-    </p>
-</section>
+        <a href="tel:+918530193038" class="btn">
+            <img src="https://cdn-icons-png.flaticon.com/512/724/724664.png">
+            Call Now
+        </a>
 
-<!-- 🔷 Products -->
-<section class="section" style="background:#fff;">
-    <h2>Our Products</h2>
-    <div class="cards">
-        <div class="card">UPVC Pipe Fittings</div>
-        <div class="card">CPVC Pipe Fittings</div>
-        <div class="card">Brass Fittings</div>
-        <div class="card">Industrial Solutions</div>
+        <a href="https://wa.me/918530193038" class="btn">
+            <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png">
+            WhatsApp
+        </a>
+
+        <a href="https://maps.google.com/?q=Rajkot Gujarat" target="_blank" class="btn">
+            <img src="https://cdn-icons-png.flaticon.com/512/684/684908.png">
+            Location
+        </a>
+
+        <div class="social">
+            <a href="https://www.instagram.com/glanzapipefitting/" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png">
+            </a>
+
+            <a href="https://www.facebook.com/profile.php?id=61576484231136" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png">
+            </a>
+
+            <a href="https://www.linkedin.com/company/112832017/" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png">
+            </a>
+        </div>
+
     </div>
-</section>
 
-<!-- 🔷 Why Us -->
-<section class="section">
-    <h2>Why Choose Us</h2>
-    <div class="cards">
-        <div class="card">High Quality</div>
-        <div class="card">Long Life</div>
-        <div class="card">On-time Delivery</div>
-        <div class="card">Export Available</div>
-    </div>
-</section>
-
-<!-- 🔷 Contact -->
-<section class="section" style="background:#fff;">
-    <h2>Contact Us</h2>
-    <p>📞 +91 8530193038</p>
-
-    <div class="social">
-        <a href="https://www.facebook.com/profile.php?id=61576484231136" target="_blank">Facebook</a>
-        <a href="https://www.instagram.com/glanzapipefitting/" target="_blank">Instagram</a>
-        <a href="https://www.linkedin.com/company/112832017/" target="_blank">LinkedIn</a>
-    </div>
-</section>
-
-<!-- 🔷 Footer -->
-<footer>
-    <p>© 2026 Glanza Pipe Fitting</p>
-</footer>
+</div>
 
 </body>
 </html>
